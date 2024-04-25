@@ -1,6 +1,6 @@
 function checkRUEstado() {
-   // const url = "https://ruunifei.free.beeceptor.com/estadoru1";
-    const url = "https://ruunifei.free.beeceptor.com/estadoru2";
+    const url = "https://ruunifei.free.beeceptor.com/estadoru1";
+   // const url = "https://ruunifei.free.beeceptor.com/estadoru2";
 
     fetch(url)
       .then(response => response.json())
