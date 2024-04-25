@@ -1,0 +1,152 @@
+
+* {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#HorarioH1 {
+    text-align: center;
+}
+
+#EstadoRUH1 {
+    text-align: center;
+}
+
+nav {
+    background-color: #043473;
+    color: black;
+    padding: 10px;
+}
+
+
+#estadoru{
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.hero {
+    background-image: url('./fundo.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b5babc;
+    text-align: center;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    background-color: #da2516;
+}
+
+main {
+    padding: 30px;
+}
+
+h1 {
+    text-align: start;
+}
+
+.info {
+    margin-bottom: 20px;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+P {
+    justify-content: center;
+}
+
+.button {
+    align-items: center;
+    display: inline-block;
+    background-color: #b5babc;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin-bottom: 10px;
+    }
+    .hero {
+        height: 25rem;
+    }
+
+}
+
+
+#subscribe {
+    text-align: left; 
+    padding: 20px;
+}
+
+#subscribe h2 {
+    text-align: center; 
+}
+
+#subscribe label {
+    display: block; 
+    margin-bottom: 5px;
+}
+
+#subscribe input[type="text"],
+#subscribe input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#subscribe input[type="submit"] {
+    background-color: #da2516; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#subscribe input[type="submit"]:hover {
+    background-color: #b5babc; 
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Universitário - R.U</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav>
+    <div class="container">
+        <ul>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#about">Sobre nós</a></li>
+            <li><a href="#contact">Contato</a></li>
+            <li><a href="#subscribe">Inscreva-se</a></li> </ul>
+    </div>
+</nav>
+<section class="hero">
+    <div class="hero-content">
+        <h1> Restaurante Universitário</h1>
+        <p>Almoço saboroso e nutritivo diariamente!</p>
+    </div>
+</section>
+<main>
+    <div class="container">
+        <div id="estadoru" class="info">
+            <h1 id="EstadoRUH1">O RU está: <span id="estadoSpan" >aguarde...</span></h1>
+        </div>
+        <div class="info">
+            <h1 id="HorarioH1">Horários</h1>
+            <p>R$8,8 é o valor para desfrutar do nosso delicioso almoço</p>
+            <p>Horário de funcionamento : 11:00-14:00 de Segunda a Sábado</p>
+        </div>
+        <div class="info">
+            <a href="https://www.google.com/maps/place/Universidade+Federal+de+Itajub%C3%A1+-+UNIFEI+-+Campus+Theodomiro+Carneiro+Santiago/@-19.6733641, -43.2124748,15z/data=!4m6!3m5!1s0xa5a0d5ee5ffa5f:0x492daa791fcc7f52!8m2!3d-19.6733641! 4d-43.2124748!16s%2Fg%2F1q5gppdsn?entry=ttu" target="_blank" class="button">Ver no Google Maps</a>
+        </div>
+        <div class="info">
+            <h2> Cardápio</h2>
+            <h3> Segunda-feira:</h3>
+            <p> Medalhões de filé mignon com molho de vinho tinto, acompanhados de purê de batata trufado e espargos grelhados. </p>
+            <h3> Terça-feira:</h3>
+            <p> Costeletas de cordeiro grelhadas com molho de hortelã, servidas com couscous marroquino e legumes assados. </p>
+            <h3>Quarta-feira:</h3>
+            <p> Picanha grelhada ao ponto, acompanhada de batatas rústicas e salada de folhas nobres com vinagrete balsâmico. </p>
+            <h3> Quinta-feira:</h3>
+            <p> Magret de pato grelhado com redução de laranja e gengibre, servido com purê de batata doce e brócolis sauté. </p>
+            <h3> Sexta-feira:</h3>
+            <p> Tornedor de filé mignon grelhado com molho de pimenta verde, guarnecido com batatas gratinadas e legumes ao vapor. </p>
+            <h3> Sábado:</h3>
+            <p> Entrecôte grelhado com manteiga de ervas, servido com batatas fritas trufadas e salada de tomate e cebola roxa. </p>
+        </div>
+        <section class="info" id="about">
+            <h2>Sobre nós</h2>
+            <h3>Conhecendo o Restaurante Universitário da UNIFEI</h3>
+            <p> Localizado no Anexo 3 da UNIFEI campus-itabira , o famoso "R.U" não é apenas um local para refeições, mas onde os estudantes se reúnem para se alimentar e fortalecer vínculos. Com um compromisso com a qualidade e a sustentabilidade, oferecemos uma variedade de pratos preparados com ingredientes frescos e locais, proporcionando uma experiência gastronômica nutritiva. Mais do que um espaço para saciar a fome, o restaurante é um ambiente de convívio, onde estudantes dos diferentes cursos de engenharia e seus docentes se encontram para compartilhar ideias, experiências e momentos de descontração. Aqui, todos são bem-vindos para se reunir em torno da mesa e desfrutar não apenas de boa comida, mas também de decanso entre as longas aulas diárias.</p>
+        </section>
+        <section class="info" id="contact">
+            <h2>Contatos </h2>
+            <p>Endereço: Rua Irmã Ivone Drumond, 200 - Distrito Industrial II, Itabira - MG, 35903-087</p>
+            <p>Telefone: (31) 3839-0800</p>
+            <p>Email: restauranteuniversitário@unifei.edu.br</p>
+        </section>
+         <section class="info" id="subscribe">
+            <h2>Inscreva-se para receber atualizações do Cardápio</h2>
+            <form action="subscribe.php" method="post"> </form> 
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="id">ID:</label>
+                <input type="text" id="id" name="id" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <input type="submit" value="Inscrever-se">
+            </form>
+        </section> </div> 
+</main>
+<script src="./script.js"></script>
+</body>
+</html>
